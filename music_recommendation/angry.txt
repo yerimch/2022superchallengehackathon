@@ -1,0 +1,20 @@
+Bloodfeast,Alaska,14,13,7,2,2,6
+Sweet Caroline,Alaska,12,11,7,2,2,4
+Juan,Alaska,14,13,7,2,2,6
+Electric Death Song,Alaska,14,13,7,2,2,6
+Chungi,Alaska,14,13,7,2,2,6
+Three Crosses,Alaska,14,13,7,2,2,6
+Noose,Alaska,14,13,7,2,2,6
+Sacking Offence,Alaska,14,13,7,2,2,6
+Blacklist,Alaska,14,13,7,2,2,6
+Alfredo Garcia's Head,The October Country,10,7,1,0,1,1
+Smack Accident,The October Country,10,7,1,0,1,1
+Albion Moonlight,The October Country,10,7,1,0,1,1
+Big Neon Red,The October Country,10,7,1,0,1,1
+Johnny Patricide,The October Country,10,7,1,0,1,1
+Hurt Yourself,The October Country,10,7,1,0,1,1
+House Of The Sleeping Beauties,The October Country,10,7,1,0,1,1
+Frame Of Mine,The October Country,10,7,1,0,1,1
+Sandboat,The October Country,10,7,1,0,1,1
+Magazine,The October Country,10,7,1,0,1,1
+Killing You (Cemetery Stare),The October Country,10,7,1,0,1,1
