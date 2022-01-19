@@ -7,7 +7,8 @@ from torch.utils.data import Dataset, DataLoader
 import gluonnlp as nlp
 import numpy as np
 from tqdm import tqdm, tqdm_notebook
-import boto3
+import random
+from flask import jsonify
 
 #kobert
 from kobert.utils import get_tokenizer
@@ -15,8 +16,6 @@ from kobert.pytorch_kobert import get_pytorch_kobert_model
 
 #BERT 모델, Vocabulary 불러오기 필수
 bertmodel, vocab = get_pytorch_kobert_model()
-BUCKET_NAME="electroniccommerce"
-s3_client=boto3.client("s3")
 device="cpu"
 
 # KoBERT에 입력될 데이터셋 정리
@@ -75,8 +74,7 @@ log_interval = 100
 learning_rate =  5e-5
 
 ## 학습 모델 로드
-s3_client.download_file(BUCKET_NAME,"best_model_100epoch.pt","/home/ubuntu/model/best_model_100epoch.pt")
-model = torch.load("/home/ubuntu/model/best_model_100epoch.pt",map_location=torch.device('cpu'))  # 전체 모델을 통째로 불러옴, 클래스 선언 필수
+#model = torch.load("/home/ubuntu/model/best_model_100epoch.pt",map_location=torch.device('cpu'))  # 전체 모델을 통째로 불러옴, 클래스 선언 필수
 
 #토큰화
 tokenizer = get_tokenizer()
@@ -90,12 +88,59 @@ def new_softmax(a) :
     return np.round(y, 3)
 
 def get_movie_list(emotion):
+    if emotion==0:
+        file="anger"
+    elif emotion==1 or emotion==3:
+        file="sadness"
+    elif emotion==2:
+        file="fear"
+    elif emotion==4:
+        file="surprise"
+    else:
+        file="joy"
+    file+=".txt"
+    data=[]
+
+    with open(f"movie_recommendation/{file}") as f:
+        for line in f.readlines():
+            data.append(line.strip())
+    data=[x.split(",")[0:2] for x in data]
+    index=set()
+    while len(index)!=3:
+        index.add(random.randint(0,len(data)))
+
+    return [data[i] for i in index]
 
 def get_music_list(emotion):
+    if emotion==0:
+        file="angry"
+    elif emotion==1 or emotion==3:
+        file="sad"
+    elif emotion==2:
+        file="nervous"
+    elif emotion==3:
+        file="hurt"
+    elif emotion==4:
+        file="panic"
+    else:
+        file="happy"
+    file+=".txt"
+    data=[]
+
+    with open(f"music_recommendation/{file}") as f:
+        for line in f.readlines():
+            data.append(line.strip())
+    data=[x.split(",")[0:2] for x in data]
+    index=set()
+    while len(index)!=3:
+        index.add(random.randint(0,len(data)))
+
+    return [data[i] for i in index]
+
 
 # 예측 모델 설정
 @app.route('/predict', methods=['POST'])
-def predict(predict_sentence):
+def predict():
     predict_sentence=request.files["contents"]
 
     data = [predict_sentence, '0']
@@ -128,9 +173,37 @@ def predict(predict_sentence):
                 print(logit)
                 probability.append(np.round(logit, 3))
             res=np.argmax(logits)
+    movieList=get_movie_list(res)
+    musicList=get_music_list(res)
 
     return jsonify({
-        "emotionType":res
+        "emotionType":res,
+        "movieList" : [
+            {
+                "movieTitle":movieList[0][0],
+                "director":movieList[0][1],
+                },
+            {
+                "movieTitle":movieList[1][0],
+                "director":movieList[1][1],
+                },
+            {
+                "movieTitle":movieList[2][0],
+                "director":movieList[2][1],
+                }],
+        "musicList":[
+            {
+                "musicTitle":musicList[0][0],
+                "singer":musicList[0][1]
+                },
+            {
+                "musicTitle":musicList[1][0],
+                "singer":musicList[1][1]
+                },
+            {
+                "musicTitle":musicList[2][0],
+                "singer":musicList[2][1]
+                }]
         })
 
 if __name__ == '__main__':
