@@ -1,104 +1,11 @@
-The Rookie,John Lee Hancock
-Zu Warriors,Hark Tsui
-Stardust,Matthew Vaughn
-Purple Rain,Albert Magnoli
-Slipstream,David van Eyssen
-Camp,Todd Graff
-Sidewalks of New York,Edward Burns
-Get Real,Simon Shore
-Dying to Escape,Richard Shepard
-Oxygen,Richard Shepard
-Ashoka the Great,Santosh Sivan
-Death on the Nile,John Guillermin
-Midnight Run,Martin Brest
-The Awful Truth,Leo McCarey
-Vantage Point,Pete Travis
-Kung Fu Hustle,Stephen Chow
-Hidalgo,Joe Johnston
-The Edukators,Hans Weingartner
-The Final Countdown,Don Taylor
-Mifune,Søren Kragh-Jacobsen
-The Devil's Arithmetic,Donna Deitch
-Dead Men Don't Wear Plaid,Carl Reiner
-Final Fantasy 8,Yoshinori Kitase
-FF8,Yoshinori Kitase
-Final Fantasy VIII,Yoshinori Kitase
-Jaws 3,Joe Alves
-Jaws 3 People 0,Joe Alves
-Jaws III,Joe Alves
-Jaws 3-D,Joe Alves
-So Close,Corey Yuen
-Of Mice and Men,Lewis Milestone
-The Prince of Egypt,Simon WellsBrenda ChapmanSteve Hickner
-Suddenly,Lewis Allen
-Terminator 4,McG
-T4: Salvation,McG
-Project Angel,McG
-Terminator Salvation,McG
-Terminator Salvation: The Future Begins,McG
-Beowulf: The IMAX Experience,Robert Zemeckis
-Beowulf: An IMAX 3D Experience,Robert Zemeckis
-Beowulf,Robert Zemeckis
-The Seven Deadly Sins,David Fincher
-Se7en,David Fincher
-Seven,David Fincher
-Claw,Christian Duguay
-Young Sherlock Holmes and the Pyramid of Fear,Barry Levinson
-Young Sherlock Holmes,Barry Levinson
-The Best Man,Malcolm D. Lee
-Déjà Vu,Tony Scott
-Deja Vu,Tony Scott
-Cabaret,Bob Fosse
-Die Hard,John McTiernan
-Dodge City,Michael Curtiz
-Do Your Thing,Farhan Akhtar
-What the Heart Wants,Farhan Akhtar
-Why We Had to Kill Bitch,John-Paul Nickel
-W.W.H.T.K.B.,John-Paul Nickel
-Why We Had to Kill Karen,John-Paul Nickel
-Gregory's Girl,Bill Forsyth
-Blues Brothers 2000,John Landis
-The Purple Rose of Cairo,Woody Allen
-Wing Commander,Chris Roberts
-Mysterious Island,Russell Mulcahy
-Jules Verne's Mysterious Island,Russell Mulcahy
-Blue Hill Avenue,Craig Ross Jr.
-Reaper,Mike RohlRon UnderwoodJohn FortenberryFred GerberPeter LauerMichael Patrick JannJeff MelmanMichael GrossmanStephen CraggMichael RobisonVictoria HochbergRobert BerlingerJamie BabbitKevin DowlingTom CheronesJames HeadTom SpezialyKevin Smith
-Big Wednesday,John Milius
-The Time Traveler's Wife,Robert Schwentke
-Calendar Girls,Nigel Cole
-61*,Billy Crystal
-61,Billy Crystal
-Home Run Race,Billy Crystal
-Alfred Hitchcock's The Trouble with Harry,Alfred Hitchcock
-The Trouble with Harry,Alfred Hitchcock
-The Trouble with Harry,Alfred Hitchcock
-Wordplay,Patrick Creadon
-Word Play,Patrick Creadon
-Delicatessen,Jean-Pierre JeunetMarc Caro
-Analyze This,Harold Ramis
-Penelope,Rian Johnson
-The Brothers Bloom,Rian Johnson
-Sky Kids,Rocco DeVilliers
-Mask of the Phantasm: Batman - The Animated Movie,Kevin AltieriBoyd KirklandFrank PaurDan RibaEric RadomskiBruce Timm
-Batman: Mask of the Phantasm: The Animated Movie,Kevin AltieriBoyd KirklandFrank PaurDan RibaEric RadomskiBruce Timm
-Batman: The Animated Movie - Mask of the Phantasm,Kevin AltieriBoyd KirklandFrank PaurDan RibaEric RadomskiBruce Timm
-Batman: Mask of the Phantasm,Kevin AltieriBoyd KirklandFrank PaurDan RibaEric RadomskiBruce Timm
-Traitor,Jeffrey Nachmanoff
-The Red Violin,François Girard
-Mulberry St,Jim Mickle
-Mulberry Street,Jim Mickle
-City of Ember,Gil Kenan
-The Special Edition of Beauty and the Beast,Gary TrousdaleKirk Wise
-Beauty and the Beast,Gary TrousdaleKirk Wise
-Beauty and the Beast 3-D,Gary TrousdaleKirk Wise
-Let It Be,Michael Lindsay-Hogg
-Shooting Fish,Stefan Schwartz
-Amélie,Jean-Pierre Jeunet
-Amelie,Jean-Pierre Jeunet
-"Come, Let's Dance",Anil Mehta
-The Best of Youth,Marco Tullio Giordana
-Outlander,Howard McCain
-Grand Hotel,Edmund Goulding
-The Right Stuff,Philip Kaufman
-Nanny McPhee,Kirk Jones
+primaryTitle	directors
+House of Games	David Mamet
+Bruce Almighty	Tom Shadyac
+A Cry in the Dark	Fred Schepisi
+Before Sunrise	Richard Linklater
+Emma	Douglas McGrath
+Footlight Parade	Lloyd Bacon
+Europa	Lars von Trier
+Stanley & Iris	Martin Ritt
+An American in Paris	Vincente Minnelli
+Scarface	Brian De Palma

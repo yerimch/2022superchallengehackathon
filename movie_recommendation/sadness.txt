@@ -1,100 +1,11 @@
-9/11,Jules NaudetGédéon NaudetJames Hanlon
-Reign O'er Me,Mike Binder
-Empty City,Mike Binder
-Reign Over Me,Mike Binder
-Tangents,David Giancola
-Time Chasers,David Giancola
-Time Chasers,David Giancola
-Death Becomes Her,Robert Zemeckis
-Trees Lounge,Steve Buscemi
-Savior,Predrag Antonijevic
-One from the Heart,Francis Ford Coppola
-Big Bad Wolf,Lance W. Dreesen
-The Fury,Brian De Palma
-Dying to Escape,Richard Shepard
-Oxygen,Richard Shepard
-Ashoka the Great,Santosh Sivan
-London to Brighton,Paul Andrew Williams
-Into Great Silence,Philip Gröning
-Clockwatchers,Jill Sprecher
-Hidalgo,Joe Johnston
-The Edukators,Hans Weingartner
-Mifune,Søren Kragh-Jacobsen
-The Eel,Shohei Imamura
-The Glass House,Daniel Sackheim
-Birth,Jonathan Glazer
-Jaws 3,Joe Alves
-Jaws 3 People 0,Joe Alves
-Jaws III,Joe Alves
-Jaws 3-D,Joe Alves
-Ring 0: Birthday,Norio Tsuruta
-So Close,Corey Yuen
-Phantasm IV: Oblivion,Don Coscarelli
-Phantasm IV: Infinity,Don Coscarelli
-Phantasm: Phorever,Don Coscarelli
-Phantasm: oblIVion,Don Coscarelli
-16 Blocks,Richard Donner
-Sixteen Blocks,Richard Donner
-Terminator 4,McG
-T4: Salvation,McG
-Project Angel,McG
-Terminator Salvation,McG
-Terminator Salvation: The Future Begins,McG
-Dead Man's Shoes,Shane Meadows
-Hide and Creep,Chance ShirleyChuck Hartsell
-1968 Tunnel Rats,Uwe Boll
-The Texas Chainsaw Massacre,Tobe Hooper
-Leatherface,Tobe Hooper
-The Texas Chain Saw Massacre: 40th Anniversary,Tobe Hooper
-Headcheese,Tobe Hooper
-The Texas Chain Saw Massacre,Tobe Hooper
-Stalking Leatherface,Tobe Hooper
-Nowhere,Gregg Araki
-World,Zhangke Jia
-The World,Zhangke Jia
-Home Alone 2: Lost in New York,Chris Columbus
-Alone Again,Chris Columbus
-Home Alone 2,Chris Columbus
-Thomas and the Magic Railroad,Britt Allcroft
-Gregory's Girl,Bill Forsyth
-Live Flesh,Pedro Almodóvar
-Wing Commander,Chris Roberts
-All or Nothing,Mike Leigh
-Reaper,Mike RohlRon UnderwoodJohn FortenberryFred GerberPeter LauerMichael Patrick JannJeff MelmanMichael GrossmanStephen CraggMichael RobisonVictoria HochbergRobert BerlingerJamie BabbitKevin DowlingTom CheronesJames HeadTom SpezialyKevin Smith
-The Apostle,Robert Duvall
-The Secret Garden,Agnieszka Holland
-Resident Evil,Paul W.S. Anderson
-Resident Evil: Ground Zero,Paul W.S. Anderson
-Resident Evil the Movie,Paul W.S. Anderson
-They're Coming to Get You,Samuel M. ShermanAl Adamson
-The Revenge of Dracula,Samuel M. ShermanAl Adamson
-Blood of Frankenstein,Samuel M. ShermanAl Adamson
-Teenage Dracula,Samuel M. ShermanAl Adamson
-Dracula vs. Frankenstein,Samuel M. ShermanAl Adamson
-The Blood Seekers,Samuel M. ShermanAl Adamson
-Satan's Blood Freaks,Samuel M. ShermanAl Adamson
-Blood Freaks,Samuel M. ShermanAl Adamson
-In the Valley of Elah,Paul Haggis
-Death and Dishonor,Paul Haggis
-Sonatine,Takeshi Kitano
-The Prince & Me II: The Royal Wedding,Catherine Cyran
-J.T.,Robert M. Young
-The Wraith,Mike Marvin
-Inconvenience,Kevin Smith
-Clerks X: Tenth Anniversary Edition,Kevin Smith
-Rude Clarks,Kevin Smith
-Clerks.,Kevin Smith
-Clerks,Kevin Smith
-cLeRKs,Kevin Smith
-Our Mother's House,Jack Clayton
-Damnation Alley,Jack Smight
-The Leopard Man,Jacques Tourneur
-Let It Be,Michael Lindsay-Hogg
-Megalodon,Pat Corbitt
-Sea of Love,Harold Becker
-Incendiary,Sharon Maguire
-Sunset Boulevard,Billy Wilder
-Sunset Blvd.,Billy Wilder
-A Can of Beans,Billy Wilder
-The Last Breath,John Murlowski
-Contagion,John Murlowski
+primaryTitle	directors
+Saving Grace	Nigel Cole
+Angels in the Outfield	William Dear
+Antwone Fisher	Denzel Washington
+Arthur	Steve Gordon
+The Color Purple	Steven Spielberg
+Secret Sunshine	Chang-dong Lee
+The Mother	Roger Michell
+Home Room	Paul F. Ryan
+Ride with the Devil	Ang Lee
+The Straight Story	David Lynch
