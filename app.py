@@ -108,11 +108,11 @@ def get_movie_list(emotion):
 
 def get_music_list(emotion):
     if emotion==0 or emotion==3:
-        file="angry"
+        file="Calm"
     elif emotion==1 or emotion==2:
-        file="sad"
+        file="Happy"
     else:
-        file="happy"
+        file="Sad"
     file+=".txt"
     data=[]
 
